@@ -135,4 +135,12 @@ $keterangan = [
         </tfoot>
     </table>
 </body>
+<br>
+<footer>
+    <center>
+        <font face="cambria" color="black" size="4" height="50%">
+            Design By : Alifia Dini &copy;2024 Kampus Merdeka
+        </font>
+    </center>
+</footer>
 </html>
