@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #caf1f0;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f2f2f2; /* Warna latar belakang */
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #4caf99; /* Warna latar belakang header */
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang baris genap */
+}
+tr:nth-child(odd) {
+    background-color: #FFFFFF; /* Warna latar belakang baris ganjil */
+}
