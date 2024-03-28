@@ -41,8 +41,8 @@ $keterangan = [
     'Nilai Tertinggi' => $nilai_tertinggi,
     'Nilai Terendah' => $nilai_terendah,
     'Nilai Rata-Rata' => $nilai_rata2,
-    'Jumlah Nilai' => $jumlah_nilai,
-    'Jumlah Mahasiswa' => $jumlah_mahasiswa
+    'Jumlah Mahasiswa' => $jumlah_mahasiswa,
+    'Jumlah Keseluruhan Nilai' => $jumlah_nilai
 ];
 
 ?>
@@ -75,13 +75,13 @@ $keterangan = [
             // If multi kondisi
             if ($daftar['nilai'] >= 85 && $daftar['nilai'] <= 100) {
                 $grade = 'A';
-            } elseif ($daftar['nilai'] >= 75) {
+            } else if ($daftar['nilai'] >= 75) {
                 $grade = 'B';
-            } elseif ($daftar['nilai'] >= 50) {
+            } else if ($daftar['nilai'] >= 50) {
                 $grade = 'C';
-            } elseif ($daftar['nilai'] >= 25) {
+            } else if ($daftar['nilai'] >= 25) {
                 $grade = 'D';
-            } elseif ($daftar['nilai'] >= 5) {
+            } else if ($daftar['nilai'] >= 5) {
                 $grade = 'E';
             } else {
                 $grade = '';
