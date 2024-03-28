@@ -54,7 +54,7 @@ $keterangan = [
     <title>Daftar Nilai Mahasiswa</title>
 </head>
 <body>
-    <h3 align="center">DAFTAR NILAI MAHASISWA</h3>
+    <h2 align="center">DAFTAR NILAI MAHASISWA</h2>
     <table>
         <head>
             <tr>
@@ -139,7 +139,7 @@ $keterangan = [
 <footer>
     <center>
         <font face="cambria" color="black" size="4" height="50%">
-            Design By : Alifia Dini &copy;2024 Kampus Merdeka
+            Design By : Alifia Dini &copy;2024 MSIB
         </font>
     </center>
 </footer>
